@@ -10,6 +10,7 @@
 
 --help
 
+```
 Usage:
   splitFast [flags]
 
@@ -22,3 +23,5 @@ Flags:
   -p, --pool int                  最大并发数 (default 5)
   -e, --splitElment string        分割时会根据splitElment来分割，可选(none, return, space)，当为none时，以精确的bytesSize分割，当为return时，以近似bytesSize并且寻找最近换行符分割，当为space时以近似bytesSize并且寻找最近空格分割 (default "return")
   -s, --splited filename string   分割后的子文件名, 其中{%d}为子文件序号，{%s}为分割对象文件名 (default "part{%d}.{%s}")
+```
+
